@@ -35,8 +35,8 @@ def test_create_user():
     # date = Select(driver.find_element(x, DOB_date_DD_xpath))
     # date.select_by_value(6)
 
-    driver.find_element(x, password_xpath).send_keys("Boss@007")
-    driver.find_element(x , confirm_password_xpath).send_keys("Boss@007")
+    driver.find_element(x, password_xpath).send_keys("Ashish@001")
+    driver.find_element(x , confirm_password_xpath).send_keys("Ashish@001")
     driver.save_screenshot("C:\\jenkins\\Screenshots\\registration.png")
 
     driver.find_element(x, submit_button_xpath).click()
