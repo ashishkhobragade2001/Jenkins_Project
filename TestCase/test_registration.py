@@ -40,3 +40,6 @@ def test_create_user():
     driver.save_screenshot("C:\\jenkins\\Screenshots\\registration.png")
 
     driver.find_element(x, submit_button_xpath).click()
+
+    ## commond
+    # pytest -vs --alluredir="C:\\jenkins\\Allure" --html="C:\\jenkins\\Html\\html_reports.html"
